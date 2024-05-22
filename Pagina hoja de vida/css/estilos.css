@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.col {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.titulo-detalle {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+}
+
+p {
+    margin: 0;
+}
+
+.fa-solid {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 5px solid #007BFF;
+    border-radius: 5px; /* Añadir borde redondeado */
+}
+
+li:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.especialidades {
+    margin-top: 20px;
+}
+
+.especialidades h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.especialidades ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.especialidades li {
+    width: 45%;
+    margin: 10px;
+    text-align: center;
+}
+
+.contacto {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boton-contacto {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.boton-contacto:hover {
+    background-color: #0056b3;
+}
